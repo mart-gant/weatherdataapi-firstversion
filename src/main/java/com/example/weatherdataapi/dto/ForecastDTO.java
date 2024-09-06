@@ -13,7 +13,7 @@ public class ForecastDTO {
     private String data;
 
     public ForecastDTO() {
-        this.forecastType = forecastType;
+        this.forecastType = null;
     }
 
     public String getForecastType() {
